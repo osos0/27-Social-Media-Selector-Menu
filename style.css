@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: teal;
+}
+
+.contianer {
+  background-color: rgb(207, 207, 207);
+  width: 300px;
+  background-color: transparent;
+  opacity: 50%;
+}
+
+.Social {
+  margin: 20px 0px;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 5px 20px;
+  outline: none;
+  background-color: aliceblue;
+  cursor: pointer;
+  position: relative;
+}
+
+.secondCon {
+  border-radius: 10px;
+  background-color: aliceblue;
+  padding: 10px;
+}
+
+.option {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  cursor: pointer;
+}
+
+.secondCon :hover {
+  background-color: rgb(220, 220, 220);
+  transition: 400ms;
+  transform: translateX(10px);
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.pic {
+  margin: 0 15px;
+  height: 20px;
+}
+.Social p {
+  display: flex;
+  align-items: center;
+}
+
+.fa-solid {
+  padding-right: 0%;
+  position: absolute;
+  right: 20px;
+  top: 35%;
+}
+.hidden {
+  visibility: hidden;
+}
+
+.active {
+  opacity: 0;
+  transition: 500ms;
+}
